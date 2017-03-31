@@ -35,7 +35,7 @@ var ConfirmBattleContainer = React.createClass({
             <ConfirmBattle
                 isLoading={this.state.isLoading}
                 onInitiateBattle={this.handleInitiateBattle}
-                playersInfo={this.state.playersInfo} />
+                playersInfo={this.state.playersInfo}/>
         )
     }
 });
